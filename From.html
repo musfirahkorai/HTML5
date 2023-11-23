@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<HTml lang="en">
+    <head>
+    <meta charset="UT-8">
+    <meta name="viweprot" content="width divece width">
+    <title> Payment Form</title>
+   <style>
+    *box{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+.container{
+    background-color:#f2f2f2;
+     padding: 5px 20px 15px 20px;
+     border: 1px solid;
+
+   </style>
+    </head>
+    <body>
+        <form action="">
+            <h1><b>Payment Form </b> </h1>
+            <h2>Contact Information</h2>
+            <p><b>NAME:</b><input type="text" name="name" required placeholder="Write Your Name Here"></p>
+            <p>
+                Male 
+                <input type="radio" name="gender">
+            </p>
+            <p>
+            Fale
+                <input type="radio" name="gender">
+            </p>
+            <p>
+                Address <textarea name="addess" id="addess" cols="30" rows="8"></textarea>
+            </p>
+            <p>
+                Email: <input type="email" name="email" id="email">
+            </p>
+            <p>
+                Pincode<input type="number" name="pincode" id="pincode" >
+            </p>
+            <h2>Payment Information</h2>
+             <p>
+                Card Type:
+                <select name="card_type" id="card_type" >
+                <option value="">--Selcet a Card Type--</option>
+             </p>
+             <option value="Visa">Visa</option>
+             <option value="Pakistani Rupees">Pakistani Rupees</option>
+             <option value="Denaar">Denaar</option>
+             <option value="Dollar's">Dollar's</option>
+            </select>
+            <p>
+                Card Number <input type="number" name="card_number" id="card_number">
+            </p>
+         <p>
+            Expiration Date : <input type="date" name="exp_date">
+         </p>
+         <p>
+            CVV <input type="password" name="cvv" id="cvv">
+         </p>
+         <input type="button"  value="Pay Now!" <a href="file:///D:/Musfira%20Murtaza/Web%20Delpment/Mega%20Project.html"></a>>
+        </form>
+    </body>
+</HTml>
